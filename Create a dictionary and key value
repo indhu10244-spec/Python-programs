@@ -1,0 +1,8 @@
+d = {"a": 10, "b": 20, "c": 30}
+
+key = input("Enter key to search: ")
+
+if key in d:
+    print("Key found, value =", d[key])
+else:
+    print("Key not found")
